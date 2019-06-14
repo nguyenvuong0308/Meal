@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F21CE7E22B33EAF007074BB /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F21CE7D22B33EAF007074BB /* RatingControl.swift */; };
 		2FE0D13C22B0A661007BD066 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0D13B22B0A661007BD066 /* AppDelegate.swift */; };
 		2FE0D13E22B0A661007BD066 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE0D13D22B0A661007BD066 /* ViewController.swift */; };
 		2FE0D14122B0A661007BD066 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE0D13F22B0A661007BD066 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F21CE7D22B33EAF007074BB /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		2FE0D13822B0A661007BD066 /* CustomTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE0D13B22B0A661007BD066 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE0D13D22B0A661007BD066 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				2FE0D14222B0A669007BD066 /* Assets.xcassets */,
 				2FE0D14422B0A669007BD066 /* LaunchScreen.storyboard */,
 				2FE0D14722B0A669007BD066 /* Info.plist */,
+				2F21CE7D22B33EAF007074BB /* RatingControl.swift */,
 			);
 			path = CustomTableViewCell;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FE0D13E22B0A661007BD066 /* ViewController.swift in Sources */,
+				2F21CE7E22B33EAF007074BB /* RatingControl.swift in Sources */,
 				2FE0D13C22B0A661007BD066 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP9944YXT;
 				INFOPLIST_FILE = CustomTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QP9944YXT;
 				INFOPLIST_FILE = CustomTableViewCell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
