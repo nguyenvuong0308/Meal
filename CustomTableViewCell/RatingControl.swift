@@ -52,6 +52,7 @@ import UIKit
             buttonRed.translatesAutoresizingMaskIntoConstraints = false
             buttonRed.heightAnchor.constraint(equalToConstant: startSize.height).isActive = true
             buttonRed.widthAnchor.constraint(equalToConstant: startSize.width).isActive = true
+            buttonRed.backgroundColor = UIColor.clear
             buttonRed.setImage(emptyStar, for: .normal)
             buttonRed.setImage(filledStar, for: .selected)
             buttonRed.setImage(highlightedStar, for: .highlighted)
